@@ -1,6 +1,6 @@
 from keras.preprocessing import image
 from keras.models import Sequential,load_model
-from keras.layers import Dense,Conv2D,Flatten,BatchNormalization,MaxPool2D,Dropout
+from keras.layers import Dense
 from keras.applications.vgg16 import VGG16
 import cv2
 import numpy as np
