@@ -1,9 +1,30 @@
-# facemask_detection
+# Face Mask Detection
  # Requirements
-  Numpy,Keras,Tensorflow,OpenCV
- # VGG16 Model Accuracy :
+ - **Numpy** :
+
+```
+pip install numpy
+```
+- **Keras** :
+
+```
+pip install keras
+```
+- **Tensorflow** :
+
+```
+pip install tensorflow
+```
+- **OpenCV** :
+
+```
+pip install python-opencv
+```
+  
+# VGG16 Model Accuracy :
   <img src="./acc.PNG">
- # Prediction Example :
+  
+# Prediction Example :
   <img src="./mask.PNG">
   <img src="./no_mask.PNG">
  
