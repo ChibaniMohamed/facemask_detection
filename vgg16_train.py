@@ -6,8 +6,8 @@ import cv2
 import numpy as np
 from sklearn.utils import shuffle
 import os
-train_dir = "C:/Users/hp hp/Desktop/dest_folder/train"
-test_dir = "C:/Users/hp hp/Desktop/dest_folder/test"
+train_dir = "./train/"
+test_dir = "./test/"
 def data_loader(dir):
   labels = []
   pictures = []
